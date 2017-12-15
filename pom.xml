@@ -61,15 +61,3 @@
   </build>
 
 </project>
-<distributionManagement>
-    <repository>
-      <id>releases</id>
-      <!-- CHANGE HERE by your team nexus server -->
-      <url>http://192.168.19.128:8081/nexus/</url>
-    </repository>
-    <snapshotRepository>
-      <id>releases</id>
-      <!-- CHANGE HERE by your team nexus server -->
-      <url>http://192.168.19.128:8081/nexus/s</url>
-    </snapshotRepository>
-  </distributionManagement>
